@@ -2,13 +2,18 @@
   "name": "chat-example",
   "version": "1.0.0",
   "description": "Chat app using socket.io",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oliverography/chat-example.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
   }
 }
